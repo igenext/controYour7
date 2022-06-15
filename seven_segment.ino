@@ -61,7 +61,6 @@ void inc(){
   payload["value"] = count;
   payload.printTo(payloadmsg);
   server.send(200, "application/json", payloadmsg);
-
 }
 
 void dec(){
@@ -71,7 +70,6 @@ void dec(){
   payload["value"] = count;
   payload.printTo(payloadmsg);
   server.send(200, "application/json", payloadmsg);
-
 }
 
 void sync(){
